@@ -48,13 +48,13 @@ nav ul li a{
 
 a:hover{
     background: #882190;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: white;
-    transition: .5s;
+    transition: 1.5s;
 }
 
 section{
-    background: #f1abf5;
+    background: 'White';
     background-size: cover;
     height: calc(100vh - 80px);
 }
