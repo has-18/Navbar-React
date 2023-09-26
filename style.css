@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background: #F8F8F8;
+    height: 80px ;
+    width: 100%;
+}
+
+label.logo{
+    position: fixed;
+    padding: 7px 13px;
+    width: 250px;
+    height: 80px;
+    left: 100px;
+    
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+    
+}
+
+a:hover{
+    background: #882190;
+    text-transform: uppercase;
+    color: white;
+    transition: .5s;
+}
+
+section{
+    background: #f1abf5;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
